@@ -37,20 +37,44 @@ WITH
 ### Simplifying Staging DB 
 
 - Deleting non pertinent tables
-- Deleting non pertinent relations
-  
+- Deleting non pertinent relations (see cleaning_script)
+I'm aware that it's not a professionnal way of doing but in this pilote project i want to make it simple :)
+
+Diagram after cleaning
+
 <img width="519" height="538" alt="diag_after_cleaning" src="https://github.com/user-attachments/assets/17310dba-2a9e-4c8f-bb1a-5c2871061259" />
 
 ### Defining Key questions
 
+- What is the average price for each sales?
+- What is the repartition of time between ShipDate and DueDate?
+- What is the repartition of difference between PlannedCost and ActualCost?
+- What are the product that generate the most profit?
+- What are the best vendor(Sales amonth) ?
+- What are the best customer ?
+- Where are located the best vendor ?
+- Where are located the best customer ?
+- What is the evolution of sales ?
+- What month gives the best sales results ?
+- What are the best vendor (review) ?
+- What are the best products (review) ?
+- Does the rating of one order depends on time between ShipDate and DueDate?
+- What are the main raison to scrap products ?
+- What are the most scrap products ?
 
+### Modelisation using Looping
 
+<img width="1178" height="678" alt="Modelisation" src="https://github.com/user-attachments/assets/496655f8-13a1-499c-83b0-9ab81bba7c44" /> 
 
+### Creating DataWarehouse
 
+### Filling DataWarehouse using SSIS
 
+### SSAS
 
+### SSRS
 
-
+### Power BI ?
 
 
 ## Findings
